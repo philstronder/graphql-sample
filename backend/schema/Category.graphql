@@ -1,0 +1,29 @@
+type Category {
+    id: Int
+    name: String!
+}
+
+input CategoryInput {
+    name: String
+}
+
+input CategoryFilter {
+    id: Int
+    name: String
+}
+
+
+
+type Brand {
+    id: Int
+    name: String!
+}
+
+input BrandInput {
+    name: String
+}
+
+input BrandFilter {
+    id: Int
+    name: String
+}
